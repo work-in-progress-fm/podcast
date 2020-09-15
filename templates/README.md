@@ -28,7 +28,7 @@
 ▶︎ 今回のテーマ：XXXX
 hogehoge（テーマの概要）
 
-ご質問、ご意見、お便りは[googleフォーム](https://forms.gle/FH2Q3pSo28cX3J8j7)やTwitterの[#geek_engineer](https://twitter.com/hashtag/geek_engineer)でお待ちしております。
+ご質問、ご意見、お便りは[googleフォーム](http://urx.space/VNOD)やTwitterの[#geek_engineer](https://twitter.com/hashtag/geek_engineer)でお待ちしております。
 ```
 
 ## twitter
@@ -43,8 +43,10 @@ XXXX
 XXXX
 
 などについてお話ししました！
-ご質問、ご意見は https://forms.gle/FH2Q3pSo28cX3J8j7 や #geek_engineer でお待ちしております。
+ご質問、ご意見は http://urx.space/VNOD や #geek_engineer でお待ちしております。
 
 ※最後にanchorのリンクを貼る（Tweetの最後に貼らないとOGPがうまく表示されないので注意）※
-
 ```
+
+※googleフォームの短縮URLクリック回数は下記から参照可能  
+http://urx2.nu/?key=VNOD&maint=094663073d998099e5634e4c59947b3a

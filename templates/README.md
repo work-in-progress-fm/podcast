@@ -47,6 +47,3 @@ XXXX
 
 ※最後にanchorのリンクを貼る（Tweetの最後に貼らないとOGPがうまく表示されないので注意）※
 ```
-
-※googleフォームの短縮URLクリック回数は下記から参照可能  
-http://urx2.nu/?key=VNOD&maint=094663073d998099e5634e4c59947b3a

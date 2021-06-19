@@ -1,49 +1,86 @@
 # Podcast用テンプレート
 
-## talk script
+## Talk script
+A/Bは隔週入れ替わりで、原則以下のルールで担当する.
+- 偶数回の収録時は A:yaginuuun, B:takapy
+- 奇数回の収録時は A:takapy, B:yaginuuun
+
+音源の編集, 公開のスケジューリング, Twitterの投稿は基本的にAが担当.
+
 ```
 ### opening
-こんにちは〜。ギークなエンジニアを目指す.fmですー。
-このPodcastは、takapyとyaginuuunが技術・実務・キャリアなどの話題についてカジュアルに話すPodcastです。
+A) みなさんこんにちは。Aです.
+B) Bです.
 
-* 各自そのまま自己紹介
-* 最近の気になるトピック
-* 本日のメインテーマ
+A) Work In Progressは、、テクノロジーを中心に、キャリア・ビジネスなどの話題についてカジュアルに話すPodcastです.
+
+〜雑談〜（2〜5分くらい）
+
+ということで、今回のトピックはhogeです.  
+〜本編〜（10分~20分くらい）
 
 ### ending
-今日はこの辺りで終わりですかね〜
-はい。というわけで本日は◯◯◯◯◯についてお話しました。
+今日はこの辺りで終わりですかね.
 
-質問・コメントはGoogleフォームやTwitterの #geek_engineer でお待ちしております。
-ご視聴ありがとうございました。
-また次回もご視聴よろしくお願いします。
-```
-
-## anchor description
-```
-▶︎ 最近の気になるトピック
-・hoge: [Title](URL)
-・fuga: [Title](URL)
-
-▶︎ 今回のテーマ：XXXX
-hogehoge（テーマの概要）
-
-ご質問、ご意見、お便りは[googleフォーム](http://urx.space/VNOD)やTwitterの[#geek_engineer](https://twitter.com/hashtag/geek_engineer)でお待ちしております。
-```
-
-## twitter
+A) というわけで本日は◯◯◯についてお話しました.
+A) 質問・コメントはGoogleフォームやTwitterの #wipfm（ハッシュタグ ウィップエフエム） でお待ちしております.
+A) ご視聴ありがとうございました。来週またお会いしましょう.
 
 ```
-第N回を公開しました🎙
 
-▶︎ 今回のテーマ
-XXXX
+## Anchor Description
+関連箇所を更新してそのままペーストする.  
+※URLはAnchor上で意図的にリンクを貼り直す必要あり※
 
-▶︎ 最近の気になるトピック
-XXXX
+基本的に月曜日のAM 7:00に公開スケジューリングする.
 
-などについてお話ししました！
-ご質問、ご意見は http://urx.space/VNOD や #geek_engineer でお待ちしております。
+```
+こんにちは！今回は、hogeについて話しました。
+========================
+◎関連リンク
+・タイトル
+リンク
+・タイトル
+リンク
+========================
+◎質問や感想、扱って欲しいトピックなど、お気軽にコメントお待ちしております.
+・Googleフォーム
+http://urx.space/VNOD
+・Twitterのハッシュタグ
+https://twitter.com/hashtag/wipfm
+・Twitterアカウント
+https://twitter.com/wip__fm
+========================
+◎"Work In Progress"とは
+機械学習エンジニアの@takapyとデータアナリストの@yaginuuunが、テクノロジーやキャリア、ビジネスなどの話題についてカジュアルに話すPodcast番組です.
 
-※最後にanchorのリンクを貼る（Tweetの最後に貼らないとOGPがうまく表示されないので注意）※
+公式サイト: https://bit.ly/2UbGXIX
+@takapy: https://twitter.com/takapy0210
+@yaginuuun: https://twitter.com/yaginuuun
+
+```
+
+## Twitter
+その回の💭 サマリを3行くらいで書く.  
+anchorのリンクは短縮URLを使ってなるべく文字数を削減する.
+
+以下簡単な手順
+
+1. [anchorで対象のエピソード](https://anchor.fm/geek-engineer-future)のURLをコピーする
+2. [このサイト](https://qr.quel.jp/form_shorten.php)で 1.でコピーしたURLの短縮URLを作成する.1日5回しか発行できないので回数に注意（アクセス数も[ここ](https://qr.quel.jp/pv.php?b=)からチェックできる）
+3. [Twitter](https://twitter.com/wip__fm)を開いてツイートボタンを押し、2.で生成したリンクを文末にペーストしてから下記文言を追加する
+
+```
+\ ポッドキャスト更新🎙 /
+今回はhogeの話をしました！
+
+💭 サマリ1
+💭 サマリ2
+💭 サマリ3
+
+お便りはこちら
+📮 Googleフォーム: http://urx.space/VNOD
+🔖 #wipfm
+
+※ここにanchorのリンクを貼る（Tweetの文末に貼らないとOGPがうまく表示されないので注意）※
 ```

@@ -9,10 +9,10 @@ A/Bは隔週入れ替わりで、原則以下のルールで担当する.
 
 ```
 ### opening
-A) みなさんこんにちは。Aです.
+A) みなさんこんにちは. Aです.
 B) Bです.
 
-A) Work In Progressは、、テクノロジーを中心に、キャリア・ビジネスなどの話題についてカジュアルに話すPodcastです.
+A) Work In Progressは、テクノロジーを中心に、キャリア・ビジネスなどの話題についてカジュアルに話すPodcastです.
 
 〜雑談〜（2〜5分くらい）
 
@@ -35,7 +35,7 @@ A) ご視聴ありがとうございました。来週またお会いしまし�
 基本的に月曜日のAM 7:00に公開スケジューリングする.
 
 ```
-こんにちは！今回は、hogeについて話しました。
+こんにちは！今回は、hogeについて話しました.
 ========================
 ◎関連リンク
 ・タイトル
@@ -79,8 +79,39 @@ anchorのリンクは短縮URLを使ってなるべく文字数を削減する.
 💭 サマリ3
 
 お便りはこちら
-📮 Googleフォーム: http://urx.space/VNOD
+📮 http://urx.space/VNOD
 🔖 #wipfm
 
 ※ここにanchorのリンクを貼る（Tweetの文末に貼らないとOGPがうまく表示されないので注意）※
+```
+
+## Notionブログの更新Tips
+- URL: https://www.notion.so/takapy/Work-In-Progress-Portal-3623f6bc1b1e4f48960fbaa915703da5
+- 短縮URL: https://bit.ly/2UbGXIX
+    - 短縮URLのアクセス集計: https://qr.quel.jp/pv.php?b=2UbGXIX
+
+※シェアする場合は基本的に短縮URLを用いること
+
+### ギャラリーに追加するOGP画像を手軽につくる
+
+サイト: https://ogpng.vercel.app/
+
+上記サービスに下記コードを貼り付けると良い感じの画像が生成される.
+```html
+<div style="
+    background: radial-gradient(#263B42, #263B42);
+    width: 440px;
+    height: 230px;
+    padding: 20px;
+    text-align: center;
+    color: #FFBD59;
+    font-size: 28px;
+    font-family: 'ヒラギノ角ゴ ProN W3';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    "
+>
+   <p>ここにタイトルを記載</p>
+</div>
 ```
